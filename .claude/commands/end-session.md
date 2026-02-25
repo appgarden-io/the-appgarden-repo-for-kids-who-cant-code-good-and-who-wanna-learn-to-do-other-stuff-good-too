@@ -29,6 +29,14 @@ lsof -i :5173
 
 Kill any processes found listening on port 5173. Report what was stopped, or note that no dev server was running.
 
+## Step 4: Deploy to Railway
+
+1 Ask the developer if they want to deploy the current branch to Railway. If yes, proceed to the next step.
+2 If railway not installed, run `brew install railway` to install it. Run `railway login` to login to the user's Railway account.
+3 If railway installed, run `railway login` to login to the user's Railway account.
+4 Use the Railway MCP server to deploy the current branch to Railway.
+5 Report the URL of the deployed application.
+
 ## Step 4: Sign off
 
 Tell the user: "All done! Now do 8 pushups and head to bed."
