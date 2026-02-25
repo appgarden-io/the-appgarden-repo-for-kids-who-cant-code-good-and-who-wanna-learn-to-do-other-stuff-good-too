@@ -59,6 +59,28 @@ src/
 - **Code Quality** — Ultracite (powered by Biome) handles linting and formatting. Run `pnpm fix` before committing.
 - **Path Aliases** — Use `@/` to reference the `src/` directory (e.g. `@/components/ui/button`).
 
+## Session Commands
+
+This project includes two slash commands for Claude Code to bookend your coding sessions:
+
+### `/start-session`
+
+Prepares your local environment for a new coding session:
+
+1. Checks for uncommitted changes and optionally commits them
+2. Pulls the latest changes from the remote branch
+3. Installs dependencies with `pnpm install`
+4. Starts the Vite dev server (if not already running)
+
+### `/end-session`
+
+Wraps up your coding session cleanly:
+
+1. Commits any uncommitted changes (creates a feature branch if on `main`)
+2. Pushes the branch to the remote
+3. Kills any running dev servers
+4. Optionally deploys the current branch to Railway
+
 ## Code Quality
 
 ```bash
