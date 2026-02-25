@@ -9,7 +9,14 @@ Run `git status` to check for uncommitted changes (staged, unstaged, or untracke
 - **If the working tree is clean**: report that there are no uncommitted changes and move on.
 - **If there are changes**: show the user a summary of what's changed (modified files, untracked files, staged changes) and ask whether they'd like to commit these changes before continuing. If yes, follow the standard commit workflow (stage, draft message, commit). If no, move on — but warn that pulling may cause conflicts with uncommitted changes.
 
-## Step 2: Pull latest changes from remote
+## Step 2: Branch selection
+
+Determine the current branch name using `git branch --show-current` and ask the user whether they want to remain on the current branch or create a new one.
+
+- **If the user wants to stay on the current branch**: report the branch name and move on.
+- **If the user wants to switch to a new branch**: ask the user what they'd like to name the new branch. Before switching, commit any uncommitted changes on the current branch (if not already handled in Step 1) so work isn't lost. Then create and check out the new branch with `git checkout -b <branch-name>`.
+
+## Step 3: Pull latest changes from remote
 
 Run `git pull` to fetch and merge the latest changes from the tracked remote branch.
 
@@ -17,14 +24,14 @@ Run `git pull` to fetch and merge the latest changes from the tracked remote bra
 - **If there are merge conflicts**: list the conflicted files and open each one to understand the conflict. For straightforward conflicts (e.g., one side added a line, the other didn't touch it), resolve them automatically. For ambiguous conflicts where both sides made meaningful changes, show the user both versions and ask which to keep (or how to combine them). After resolving all conflicts, complete the merge commit.
 - **If there's no remote tracking branch or remote is unreachable**: report the issue and continue with the remaining steps rather than blocking the whole session.
 
-## Step 3: Install dependencies
+## Step 4: Install dependencies
 
 Run `pnpm install` to ensure all dependencies are up to date. This catches any new packages added by teammates since the last session.
 
 - Report the result (success, warnings, or errors).
 - If install fails, show the error and ask the user how they'd like to proceed.
 
-## Step 4: Start the dev server
+## Step 5: Start the dev server
 
 First, check if a dev server is already running by looking for a process listening on the default Vite port (5173):
 
