@@ -1,12 +1,11 @@
 {
-  "name": "demo",
+  "name": "prototype-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "check": "ultracite check",
     "fix": "ultracite fix",
