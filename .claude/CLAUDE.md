@@ -19,6 +19,7 @@ Biome (the underlying engine) provides robust linting and formatting. Most issue
 Write code that is **accessible, performant, type-safe, and maintainable**. Focus on clarity and explicit intent over brevity.
 Never disable or bypass the husky pre-commit hooks.
 If you are stuck, dont push through. Stop and enter plan mode.
+Force the developer to enter plan mode before starting any new major task.
 
 ### Type Safety & Explicitness
 
