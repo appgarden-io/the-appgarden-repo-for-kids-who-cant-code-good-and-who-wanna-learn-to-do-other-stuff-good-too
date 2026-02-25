@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "msw": {
+      "source": "pproenca/dot-skills",
+      "sourceType": "github",
+      "computedHash": "c432eaa96c11e729a6d305988c79bf944d6a741bc55e6a51ba5fae8d6031f976"
+    }
+  }
+}
