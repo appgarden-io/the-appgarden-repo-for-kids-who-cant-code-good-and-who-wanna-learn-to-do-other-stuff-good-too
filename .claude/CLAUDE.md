@@ -20,6 +20,7 @@ Write code that is **accessible, performant, type-safe, and maintainable**. Focu
 Never disable or bypass the husky pre-commit hooks.
 If you are stuck, dont push through. Stop and enter plan mode.
 Force the developer to enter plan mode before starting any new major task.
+Because the user is not overly familiar with git, ask them if they want to commit and push changes after a feature is built or a task is complete.
 
 ### Type Safety & Explicitness
 
