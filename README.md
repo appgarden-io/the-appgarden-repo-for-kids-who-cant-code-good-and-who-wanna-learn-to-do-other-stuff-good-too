@@ -1,3 +1,6 @@
+<img width="299" height="168" alt="image" src="https://github.com/user-attachments/assets/0a357caf-910e-4e93-8e77-4c4c08391576" />
+
+
 # Prototype Template
 
 A starter template for building polished demo apps to showcase to potential clients. Focused on rapid prototyping with high UI/UX fidelity.
