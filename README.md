@@ -1,5 +1,6 @@
 <img width="299" height="168" alt="image" src="https://github.com/user-attachments/assets/0a357caf-910e-4e93-8e77-4c4c08391576" />
 
+<img width="400" height="164" alt="image" src="https://github.com/user-attachments/assets/ddc1b674-aa88-4f24-9a32-c574b4422c88" />
 
 # Prototype Template
 
