@@ -134,21 +134,27 @@ Biome's linter will catch most issues automatically. Focus your attention on:
 
 Most formatting and common issues are automatically fixed by Biome. Run `pnpm dlx ultracite fix` before committing to ensure compliance.
 
+### Company Identity
+**AppGarden** — We build tools that help things grow. The name reflects our philosophy: cultivate good systems, tend to details, and create environments where people and processes thrive. The garden metaphor runs through our visual language — organic, grounded, and alive.
+
 ### Brand Personality
 **Warm, human, reliable.** Despite operating in the collections space, the interface should feel humane and empathetic — people-first. It should evoke trust and calm competence, never feel aggressive or transactional. The tone is approachable but serious; friendly but not casual.
 
 ### Aesthetic Direction
-- **Visual tone:** Warm, rounded, personality-driven — inspired by Notion and Arc. Generous whitespace, comfortable typography (Karla variable font), and soft edges (rounded corners throughout).
-- **Brand color:** Purple/lavender (`#f0d7ff` light, `oklch(0.4 0.12 300)` dark) — gives the interface a distinctive, cohesive identity that softens the collections domain.
+- **Visual tone:** Warm, grounded, and organic — inspired by Anthropic's earthy minimalism and Whisper Flow's clean professionalism. Generous whitespace, comfortable typography (Karla variable font), and soft edges (rounded corners throughout). The overall feel should be like a well-tended garden: natural, calm, and purposeful.
+- **Brand palette:** Green and earthy tones. Primary green (`oklch(0.55 0.15 145)` mid, `oklch(0.85 0.08 145)` light) anchors the identity — evoking growth, trust, and the natural world. Complement with warm neutrals: cream/off-white backgrounds (`oklch(0.97 0.01 90)`), soft sage, muted clay, and warm stone tones. The palette should feel like sunlight through leaves, not neon signage.
 - **Theme:** Light mode only. Dark mode CSS exists but is not active — ignore it.
-- **Anti-references:** Avoid trendy startup aesthetics — no gratuitous gradients, glassmorphism, or excessive animation. Substance over style. Every visual choice should serve clarity, not impress.
-- **Status colors:** Amber (pending), Blue (attempted), Green (agreed/success), Red (escalated/destructive) — domain-specific and must remain consistent.
+- **Anti-references:** Avoid trendy startup aesthetics — no gratuitous gradients, glassmorphism, or excessive animation. Substance over style. Every visual choice should serve clarity, not impress. Avoid overly literal garden imagery (no leaf icons everywhere, no flower borders) — the garden influence should be felt in the palette and spacing, not in clipart.
+- **Status colors:** Amber (pending), Blue (attempted), Green (agreed/success), Red (escalated/destructive) — domain-specific and must remain consistent. Note: the brand green and the success green should be visually distinct to avoid confusion.
+- **Anthropic influence:** Warm backgrounds with high-contrast text, restrained accent colors, fluid responsive typography. Sophistication through simplicity.
+- **Whisper Flow influence:** Clean component design, professional polish, uncluttered layouts. The UI stays out of the way and lets content breathe.
 
 ### Design Principles
 1. **Clarity first** — Collections staff scan many records quickly. Visual hierarchy, contrast, and information density must serve fast comprehension. Never sacrifice readability for aesthetics.
-2. **Warmth in a tough domain** — Soften the collections context with approachable typography, generous spacing, and the lavender brand palette. The interface should feel calm, not clinical.
+2. **Warmth in a tough domain** — Soften the collections context with approachable typography, generous spacing, and the earthy AppGarden palette. The interface should feel calm, not clinical.
 3. **Substance over flash** — Every animation, color, and component must earn its place. No decoration for decoration's sake. If it doesn't improve understanding or usability, remove it.
 4. **Consistent, systematic** — Use the existing design token system (OKLCh CSS variables, CVA variants, shadcn/ui primitives). Extend the system, don't work around it.
 5. **Accessible by default** — Good contrast, keyboard navigation, and semantic HTML as baseline. Focus on usability that naturally comes from well-built components.
+6. **Rooted, not rigid** — Like a garden, the design should feel organic and alive. Favor natural visual rhythms over mechanical grids. Let elements breathe with generous spacing. The interface should feel cultivated, not manufactured.
 
 
