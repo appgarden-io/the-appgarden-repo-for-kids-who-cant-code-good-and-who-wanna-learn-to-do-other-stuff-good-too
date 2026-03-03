@@ -133,3 +133,22 @@ Biome's linter will catch most issues automatically. Focus your attention on:
 ---
 
 Most formatting and common issues are automatically fixed by Biome. Run `pnpm dlx ultracite fix` before committing to ensure compliance.
+
+### Brand Personality
+**Warm, human, reliable.** Despite operating in the collections space, the interface should feel humane and empathetic — people-first. It should evoke trust and calm competence, never feel aggressive or transactional. The tone is approachable but serious; friendly but not casual.
+
+### Aesthetic Direction
+- **Visual tone:** Warm, rounded, personality-driven — inspired by Notion and Arc. Generous whitespace, comfortable typography (Karla variable font), and soft edges (rounded corners throughout).
+- **Brand color:** Purple/lavender (`#f0d7ff` light, `oklch(0.4 0.12 300)` dark) — gives the interface a distinctive, cohesive identity that softens the collections domain.
+- **Theme:** Light mode only. Dark mode CSS exists but is not active — ignore it.
+- **Anti-references:** Avoid trendy startup aesthetics — no gratuitous gradients, glassmorphism, or excessive animation. Substance over style. Every visual choice should serve clarity, not impress.
+- **Status colors:** Amber (pending), Blue (attempted), Green (agreed/success), Red (escalated/destructive) — domain-specific and must remain consistent.
+
+### Design Principles
+1. **Clarity first** — Collections staff scan many records quickly. Visual hierarchy, contrast, and information density must serve fast comprehension. Never sacrifice readability for aesthetics.
+2. **Warmth in a tough domain** — Soften the collections context with approachable typography, generous spacing, and the lavender brand palette. The interface should feel calm, not clinical.
+3. **Substance over flash** — Every animation, color, and component must earn its place. No decoration for decoration's sake. If it doesn't improve understanding or usability, remove it.
+4. **Consistent, systematic** — Use the existing design token system (OKLCh CSS variables, CVA variants, shadcn/ui primitives). Extend the system, don't work around it.
+5. **Accessible by default** — Good contrast, keyboard navigation, and semantic HTML as baseline. Focus on usability that naturally comes from well-built components.
+
+
